@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: #60574b;
+    font-size: 18px;
+}
+body{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Qwigley', cursive;
+    margin-top: 50px;
+    margin-bottom: 19px;
+    font-size: 3.5rem;
+    font-weight: normal;
+    text-align: center;
+}
+h2{
+    font-family: 'Qwigley', cursive;
+    font-size: 2.8rem;
+    font-weight: normal;
+    text-align: center;
+}
+h3{
+    font-family: 'Qwigley', cursive;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+}
+a{
+    color: #8b7963;
+}
+
+header{
+    display: flex;
+    background-color:#161616;
+    justify-content: center;
+    align-items: center;
+    height: 137px;
+}
+header nav img{
+    width: 120px;
+    margin-right: 35px;
+}
+nav{
+  display: flex; 
+}
+nav a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 17px;
+    
+}
+nav i{
+    font-size: 1.9rem;
+}
+nav span{
+    font-family: 'Qwigley', cursive;
+    color: #e0c184;
+    font-size: 2.2rem;
+}
+table {
+
+    width: 97%;
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+    margin: auto;
+  }
+
+th{
+background-color: #e5c6af;
+text-align: start;
+padding: 9px;
+font-size: 1.2rem;
+
+}
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+td{
+    border: 1px solid #cccccc;
+    text-align: center;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.date{
+    text-align: start;
+}
+form{
+    text-align: center;
+}
+input::placeholder{
+    padding: 10px;
+    color: #7e6c53;
+    font-weight: 100;
+}
+#prenom, #nom{
+    border: transparent;
+    border-bottom: 1px solid #7e6c53;
+    width: 45%;
+    font-size: 0.85rem;
+    margin: 25px;
+    padding-bottom: 8px;
+}
+#mail{
+    border: transparent;
+    border-bottom: 1px solid #7e6c53;
+    width: 95%;
+    font-size: 0.85rem;
+    margin: 25px;
+    padding-bottom: 8px;
+}
+label{
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin: 22px;
+}
+select{
+    width: 95%;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 0.8rem;
+    border-radius: 0;
+    border: 1px solid #7e6c53;
+    color: #7e6c53;
+}
+button{
+    background-color: #7e6c53;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: 100;
+    font-size: 0.9rem;
+    padding: 5px 18px;
+    margin: 28px auto;
+    
+}
+button:hover {
+    cursor: pointer;
+    background-color: #9f8869;
+}
+button:active {
+    background-color: #7e6c53;
+}
+
+footer{
+    background-color: #161616;
+    text-align: center;
+    margin: 0;
+    padding: 72px;
+}
+footer p{
+    margin: 0;
+    color: white;
+    font-size: 0.7rem;
+}
