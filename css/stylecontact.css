@@ -54,8 +54,7 @@ nav a{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    padding: 17px;
-    
+    padding: 17px;   
 }
 nav i{
     font-size: 1.9rem;
@@ -64,6 +63,9 @@ nav span{
     font-family: 'Qwigley', cursive;
     color: #e0c184;
     font-size: 2.2rem;
+}
+#linkcontact{
+    color: white;
 }
 table {
 
